@@ -1,5 +1,7 @@
-.holder{
+body{
     text-align: center;
+    /* background-image: url('http://bgfons.com/uploads/lines/lines_texture1095.jpg'); */
+   
 }
 h1{
 margin-top: 20%;
@@ -7,12 +9,24 @@ height: 100px;
 text-align: center;
 color: slateblue; 
 cursor: pointer;
-
-
+}
+h3{
+    height: 75px;
+    text-align: center;
+    color: burlywood; 
+    cursor: pointer; 
 }
 h2{
     margin-top: 130px;
+    color: black;
 }
+ p{
+    color: black;
+    ;
+ } 
+ .score{
+     margin-top: 5%;
+ }
 
  li{
     background-color: wheat; 
@@ -23,18 +37,20 @@ h2{
 
 
 }  
+img{
+    width: 350px;
+    height: 150px;
+}
 
 
 
 
 li:hover {
    
-    background-color: tomato;
     transform: scale(1.2);
     transition: all .3s ease-in-out;
      border: solid; 
     border-color: rgb(252, 155, 138);
-    color: slateblue; 
 
 }
 h1:hover {
@@ -45,6 +61,14 @@ h1:hover {
      border: solid; 
     border-color: rgb(252, 155, 138);
     color: slateblue; 
-
 }
+ h3:hover {
+    background-color: tomato;
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+     border: solid; 
+    border-color: rgb(252, 155, 138);
+    color: slateblue; 
+
+} 
 
